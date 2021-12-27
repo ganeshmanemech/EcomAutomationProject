@@ -27,6 +27,7 @@ public class AddressPage {
 	
 	public AddressPage isPageDisplay() {
 		wait.until(ExpectedConditions.visibilityOf(addAddere));
+		// good
 		return this;
 	}
 
